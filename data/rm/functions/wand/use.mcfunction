@@ -22,5 +22,6 @@ playsound block.stone.step player @s ~ ~ ~ 1 2
 execute unless score @s rm_wand_currenthold matches 2.. run return -1
 #execute if score @s rm_wand_currenthold matches 2 run summon boat ~ ~2 ~ {Tags:["hitbox"],NoAI:1b,NoGravity:1b,Invulnerable:1b,Silent:1b,active_effects:[{id:"invisibility",duration:-1,show_particles:false}],Passengers:[{id:area_effect_cloud,Duration:40}]}
 particle witch ~ ~ ~ 0 0 0 0.1 10
+attribute @s generic.knockback_resistance base set 1
 effect give @s slowness 1 9 true
 effect give @s resistance 1 2 false
