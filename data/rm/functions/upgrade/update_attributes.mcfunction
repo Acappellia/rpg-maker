@@ -46,7 +46,5 @@ execute if score @s rm_upgrade_3 matches 8 run attribute @s generic.armor modifi
 execute if score @s rm_upgrade_3 matches 9 run attribute @s generic.armor modifier add 0-0-0-0-3 "rm_armor" 9 add
 execute if score @s rm_upgrade_3 matches 10 run attribute @s generic.armor modifier add 0-0-0-0-3 "rm_armor" 10 add
 
-execute if score @s rm_upgrade_3 matches 10 run effect give @s slow_falling infinite 0 true
-
 execute unless score @s rm_update_attributes_logout matches 1.. run effect give @s instant_health 1 9 true
 scoreboard players reset @s rm_update_attributes_logout
