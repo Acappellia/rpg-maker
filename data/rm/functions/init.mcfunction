@@ -11,7 +11,7 @@ gamerule announceAdvancements false
 time set 6000
 gamerule doDaylightCycle false
 gamerule spawnRadius 0
-difficulty peaceful
+#sdifficulty peaceful
 
 setworldspawn 0 20 0 180
 
