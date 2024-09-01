@@ -4,6 +4,7 @@ tag @a remove spec
 tag @a remove dead
 tag @a remove ingame
 tag @a remove reviving
+scoreboard players set @a rm_mobkill 0
 
 clear @a
 execute as @a run function rm:players/reset_upgrade

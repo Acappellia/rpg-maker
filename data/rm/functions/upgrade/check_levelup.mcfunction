@@ -3,7 +3,7 @@ execute unless score @s rm_level > @s rm_level_old run return -1
 #tellraw @a [{"score": {"name": "@s","objective": "rm_level"}}," ",{"score": {"name": "@s","objective": "rm_level_old"}}]
 
 scoreboard players operation #player_level rm = @s rm_level
-execute if score #player_level rm matches 76.. run scoreboard players set #player_level rm 75
+execute if score #player_level rm matches 66.. run scoreboard players set #player_level rm 65
 
 scoreboard players operation #player_level_10 rm = #player_level rm
 scoreboard players operation #player_level_10 rm /= #10 rm

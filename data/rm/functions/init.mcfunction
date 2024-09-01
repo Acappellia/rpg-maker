@@ -43,6 +43,8 @@ scoreboard objectives add rm_upgrade_8 dummy
 
 scoreboard objectives add rm_upgrade_cd custom:time_since_death
 
+scoreboard objectives add rm_mobkill dummy
+
 scoreboard objectives add rm_level_old dummy
 scoreboard objectives add rm_level level
 scoreboard objectives add rm_level_10 dummy

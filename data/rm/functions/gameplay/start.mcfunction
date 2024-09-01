@@ -28,6 +28,9 @@ bossbar set timer_s1 value 1800
 bossbar set timer_s1 style notched_6
 bossbar set timer_s1 visible true
 
-difficulty hard
+difficulty easy
+scoreboard players set #monster_res rm 0
+
+scoreboard players set @a rm_mobkill 0
 
 tp @a 0 20 0 180 0

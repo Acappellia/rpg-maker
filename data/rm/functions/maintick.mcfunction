@@ -14,7 +14,7 @@ execute as @a[scores={rm_used_upgrade=1..}] run function rm:upgrade/upgrade
 execute as @a[scores={rm_update_attributes=1}] run function rm:upgrade/update_attributes
 execute as @a[scores={rm_update_attributes_logout=1}] run function rm:upgrade/update_attributes
 
-execute as @a[scores={rm_level=76..}] run xp set @s 75 levels
+execute as @a[scores={rm_level=66..}] run xp set @s 65 levels
 execute as @a run function rm:upgrade/check_levelup
 
 kill @e[type=experience_orb]
