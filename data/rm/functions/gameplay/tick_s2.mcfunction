@@ -1,4 +1,4 @@
-execute as @a[scores={rm_revivetime=1}] run function rm:gameplay/dead
+execute as @a[scores={rm_revivetime=0}] run function rm:gameplay/dead
 execute as @a[tag=reviving] run function rm:gameplay/revive
 bossbar set timer_s2 players @a
 

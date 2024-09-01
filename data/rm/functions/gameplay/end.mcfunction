@@ -1,5 +1,5 @@
 title @a times 0 40 20
-title @a title [{"selector": "@p[tag=ingame]","color": "yellow"},{"text": " 获得了胜利！","color": "white"}]
+title @a title [{"selector": "@p[tag=ingame,tag=!dead]","color": "yellow"},{"text": " 获得了胜利！","color": "white"}]
 
 execute as @a[tag=dead] at @s run playsound item.goat_horn.sound.4 player @s ~ ~ ~ 1 1
 execute as @a[tag=!dead] at @s run playsound item.goat_horn.sound.1 player @s ~ ~ ~ 1 0.8
