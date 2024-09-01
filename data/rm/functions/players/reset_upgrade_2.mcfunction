@@ -36,3 +36,5 @@ tag @s remove atk_blind_7
 tag @s remove atk_blind_8
 tag @s remove atk_blind_9
 tag @s remove atk_blind_10
+
+tag @s remove reset_upgrade
