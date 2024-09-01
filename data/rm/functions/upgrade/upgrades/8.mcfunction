@@ -3,11 +3,12 @@ scoreboard players set @s rm_upgrade_cd -12
 scoreboard players operation #upgrade_level rm = @s rm_upgrade_8
 scoreboard players add #upgrade_level rm 1
 
-title @s times 0 20 5
-title @s subtitle [{"text": "缴械概率提高","color": "green"}]
-title @s title [{"score": {"name": "@s","objective": "rm_upgrade_8"},"color": "gray"},{"text": " >> ","color": "dark_gray"},{"score": {"name": "#upgrade_level","objective": "rm"},"color": "green"}]
-
 scoreboard players add @s rm_upgrade_8 1
+
+title @s times 0 20 5
+execute if score @s rm_upgrade_8 matches 1..9 run title @s subtitle [{"text": "缴械概率提高","color": "green"}]
+execute if score @s rm_upgrade_8 matches 10 run title @s subtitle [{"text": "缴械概率较大幅提高","color": "green"}]
+title @s title [{"score": {"name": "@s","objective": "rm_upgrade_8"},"color": "gray"},{"text": " >> ","color": "dark_gray"},{"score": {"name": "#upgrade_level","objective": "rm"},"color": "green"}]
 
 tag @s remove atk_blind_1
 tag @s remove atk_blind_2

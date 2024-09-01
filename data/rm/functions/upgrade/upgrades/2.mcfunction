@@ -3,11 +3,12 @@ scoreboard players set @s rm_upgrade_cd -12
 scoreboard players operation #upgrade_level rm = @s rm_upgrade_2
 scoreboard players add #upgrade_level rm 1
 
-title @s times 0 20 5
-title @s subtitle [{"text": "物理攻击提高","color": "green"}]
-title @s title [{"score": {"name": "@s","objective": "rm_upgrade_2"},"color": "gray"},{"text": " >> ","color": "dark_gray"},{"score": {"name": "#upgrade_level","objective": "rm"},"color": "green"}]
-
 scoreboard players add @s rm_upgrade_2 1
+
+title @s times 0 20 5
+execute if score @s rm_upgrade_2 matches 1..9 run title @s subtitle [{"text": "物理攻击提高","color": "green"}]
+execute if score @s rm_upgrade_2 matches 10 run title @s subtitle [{"text": "物理提高，攻击时概率触发流血","color": "green"}]
+title @s title [{"score": {"name": "@s","objective": "rm_upgrade_2"},"color": "gray"},{"text": " >> ","color": "dark_gray"},{"score": {"name": "#upgrade_level","objective": "rm"},"color": "green"}]
 
 attribute @s generic.attack_damage modifier remove 0-0-0-0-2
 execute if score @s rm_upgrade_2 matches 1 run attribute @s generic.attack_damage modifier add 0-0-0-0-2 "rm_damage" 0.05 multiply
