@@ -1,0 +1,15 @@
+{
+    "criteria": {
+        "kill_mob": {
+            "trigger": "player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "player"
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "rm:players/kill_player"
+    }
+}

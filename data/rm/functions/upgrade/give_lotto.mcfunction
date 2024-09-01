@@ -1,0 +1,1 @@
+$give @s warped_fungus_on_a_stick{CustomModelData:100,rm_lotto:1,display:{Name:'[{"text": "豪华经验宝箱","color": "yellow","italic":false}]',Lore:['[{"text": "右键使用打开，随机获取一件武器","color": "gray"}]']}} $(Count)

@@ -1,0 +1,23 @@
+{
+    "criteria": {
+        "inv_change": {
+            "trigger": "inventory_changed",
+            "conditions": {
+                "player": {
+                    "equipment": {
+                        "offhand":{
+                            "items": [
+                                "nether_star"
+                            ],
+                            "nbt": "{rm_upgrade:1}"
+                        }
+                    },
+                    "nbt": "{Tags:[\"upgrading\"]}"
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "rm:upgrade/set_inv"
+    }
+}

@@ -1,0 +1,1 @@
+$execute if score @s rm_upgrade_$(type) matches 10 run scoreboard players set #upgrade_max rm 1

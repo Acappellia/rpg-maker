@@ -1,0 +1,15 @@
+{
+    "criteria": {
+        "player_hit": {
+            "trigger": "player_hurt_entity",
+            "conditions": {
+                "entity": {
+                    "type": "#rm:xp_mobs"
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "rm:abilities/blind/blind_hit"
+    }
+}

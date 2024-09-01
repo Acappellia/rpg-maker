@@ -1,0 +1,20 @@
+{
+    "criteria": {
+        "player_hit": {
+            "trigger": "entity_hurt_player",
+            "conditions": {
+                "player": {
+                    "nbt": "{Tags:[\"thorns\"]}"
+                },
+                "damage": {
+                    "source_entity": {
+                        "type": "#rm:xp_mobs"
+                    }
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "rm:abilities/thorns/give_thron_dmg"
+    }
+}

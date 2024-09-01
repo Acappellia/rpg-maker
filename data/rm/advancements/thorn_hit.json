@@ -1,0 +1,16 @@
+{
+    "criteria": {
+        "player_hit": {
+            "trigger": "player_hurt_entity",
+            "conditions": {
+                "entity": {
+                    "type": "player",
+                    "nbt": "{Tags:[\"thorns\"]}"
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "rm:abilities/thorns/get_thorn_dmg"
+    }
+}

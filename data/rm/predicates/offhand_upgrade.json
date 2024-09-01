@@ -1,0 +1,14 @@
+{
+    "condition": "entity_properties",
+    "entity": "this",
+    "predicate": {
+        "equipment": {
+            "offhand":{
+                "items": [
+                    "nether_star"
+                ],
+                "nbt": "{rm_upgrade:1}"
+            }
+        }
+    }
+}

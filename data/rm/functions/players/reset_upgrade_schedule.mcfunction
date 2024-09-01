@@ -1,0 +1,1 @@
+execute as @a[tag=reset_upgrade] run function rm:players/reset_upgrade_2

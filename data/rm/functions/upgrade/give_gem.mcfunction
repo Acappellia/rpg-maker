@@ -1,0 +1,1 @@
+$give @s nether_star{CustomModelData:1,rm_upgrade:1,display:{Name:'[{"text": "升级宝石","color": "yellow","italic":false}]',Lore:['[{"text": "放在副手选择升级属性","color": "gray"}]']}} $(Count)

@@ -1,0 +1,1 @@
+$damage @s $(dmg_int).$(dmg_float) magic by @p[tag=bullet_shooter]

@@ -1,0 +1,25 @@
+{
+    "criteria": {
+        "player_hit": {
+            "trigger": "entity_hurt_player",
+            "conditions": {
+                "damage": {
+                    "source_entity": {
+                        "nbt": "{Tags:[\"atk_bleed\"]}"
+                    },
+                    "type": {
+                        "tags": [
+                            {
+                                "expected": true,
+                                "id": "rm:is_player_atk"
+                            }
+                        ]
+                    }
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "rm:abilities/bleed/hit_by_bleed"
+    }
+}

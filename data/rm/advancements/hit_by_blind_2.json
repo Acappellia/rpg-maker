@@ -1,0 +1,17 @@
+{
+    "criteria": {
+        "player_hit": {
+            "trigger": "entity_hurt_player",
+            "conditions": {
+                "damage": {
+                    "source_entity": {
+                        "nbt": "{Tags:[\"atk_blind_2\"]}"
+                    }
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "rm:abilities/blind/hit_by_blind_2"
+    }
+}
