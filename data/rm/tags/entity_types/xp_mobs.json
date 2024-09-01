@@ -5,6 +5,8 @@
         "zombie_villager",
         "skeleton",
         "creeper",
-        "spider"
+        "spider",
+        "pillager",
+        "vindicator"
     ]
 }

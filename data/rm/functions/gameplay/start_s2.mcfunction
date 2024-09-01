@@ -16,4 +16,4 @@ bossbar set timer_s2 value 100
 bossbar set timer_s2 style progress
 bossbar set timer_s2 visible true
 
-#tp @a ~ ~ ~
+tp @a -284 -22 -207 0 0

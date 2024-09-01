@@ -41,3 +41,5 @@ execute as @a[scores={rm_wand_launch=-1}] run function rm:wand/launch
 execute as @e[type=item_display,tag=wand_bullet] run function rm:wand/bullets/fly
 
 execute if score #game_status rm matches 1.. run function rm:gameplay/tick
+
+effect give @a[scores={rm_resistance=..-1}] resistance 3 9 false

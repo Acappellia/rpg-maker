@@ -4,6 +4,8 @@
         "drowned",
         "zombie_villager",
         "skeleton",
-        "creeper"
+        "creeper",
+        "pillager",
+        "vindicator"
     ]
 }

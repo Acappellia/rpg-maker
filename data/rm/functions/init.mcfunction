@@ -8,9 +8,12 @@ gamerule doTraderSpawning false
 gamerule doPatrolSpawning false
 gamerule mobGriefing false
 gamerule announceAdvancements false
-time set 16000
+time set 6000
 gamerule doDaylightCycle false
-difficulty hard
+gamerule spawnRadius 0
+difficulty peaceful
+
+setworldspawn 0 20 0 180
 
 scoreboard objectives add rm dummy
 
@@ -68,6 +71,8 @@ scoreboard objectives add rm_wand_holdcd custom:time_since_death
 scoreboard objectives add rm_wand_launch custom:time_since_death
 scoreboard objectives add rm_bullet_dmg dummy
 scoreboard objectives add rm_bullet_life dummy
+
+scoreboard objectives add rm_resistance custom:time_since_death
 
 forceload add 0 0 0 0
 

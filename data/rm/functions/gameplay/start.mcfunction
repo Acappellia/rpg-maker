@@ -28,4 +28,6 @@ bossbar set timer_s1 value 1800
 bossbar set timer_s1 style notched_6
 bossbar set timer_s1 visible true
 
-#tp @a ~ ~ ~
+difficulty hard
+
+tp @a 0 20 0 180 0
