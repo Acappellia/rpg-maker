@@ -22,3 +22,4 @@ execute if score @s rm_upgrade_1 matches 9 run attribute @s generic.max_health m
 execute if score @s rm_upgrade_1 matches 10 run attribute @s generic.max_health modifier add 0-0-0-0-1 "rm_speed" 20 add
 
 execute if score @s rm_upgrade_1 matches 10 run tag @s add undead
+execute if score @s rm_upgrade_1 matches 10 run scoreboard players reset @s rm_undead_cd
