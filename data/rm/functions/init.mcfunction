@@ -44,6 +44,8 @@ scoreboard objectives add rm_level_old dummy
 scoreboard objectives add rm_level level
 scoreboard objectives add rm_level_10 dummy
 
+scoreboard objectives setdisplay list rm_level
+
 scoreboard objectives add rm_revivetime custom:time_since_death
 scoreboard objectives add rm_revive_timer dummy
 
