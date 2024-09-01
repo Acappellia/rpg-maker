@@ -17,7 +17,7 @@ execute if score #timer_s1 rm matches 1500 run difficulty normal
 execute if score #timer_s1 rm matches 1500 run tellraw @a [{"text": "> ","color": "white"},{"text": "怪物变得更加强大了……","color": "red"}]
 
 execute if score #timer_s1 rm matches 1200 run difficulty hard
-execute if score #timer_s1 rm matches 1500 run tellraw @a [{"text": "> ","color": "white"},{"text": "怪物变得更加强大了……","color": "red"}]
+execute if score #timer_s1 rm matches 1200 run tellraw @a [{"text": "> ","color": "white"},{"text": "怪物变得更加强大了……","color": "red"}]
 
 execute if score #timer_s1 rm matches 900 run scoreboard players set #monster_res rm 1
 execute if score #timer_s1 rm matches 900 run tellraw @a [{"text": "> ","color": "white"},{"text": "怪物变得更加强大了……","color": "red"}]
