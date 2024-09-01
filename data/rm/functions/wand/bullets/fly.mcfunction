@@ -5,4 +5,6 @@ tag @s add flying_bullet
 execute at @s run function rm:wand/bullets/fly_step
 execute at @s run function rm:wand/bullets/fly_step
 execute at @s run function rm:wand/bullets/fly_step
+execute at @s run function rm:wand/bullets/fly_step
+execute at @s run function rm:wand/bullets/fly_step
 tag @s remove flying_bullet

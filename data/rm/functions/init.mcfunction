@@ -8,6 +8,9 @@ gamerule doTraderSpawning false
 gamerule doPatrolSpawning false
 gamerule mobGriefing false
 gamerule announceAdvancements false
+time set 16000
+gamerule doDaylightCycle false
+difficulty hard
 
 scoreboard objectives add rm dummy
 
