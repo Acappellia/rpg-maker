@@ -8,7 +8,7 @@ tag @a[gamemode=!spectator] add ingame
 
 effect clear @a[gamemode=!spectator]
 effect give @a[gamemode=!spectator] instant_health 1 9 true
-effect give @a[gamemode=!spectator] resistance 30 9 false
+scoreboard players set @a[gamemode=!spectator] rm_resistance -240
 
 clear @a[gamemode=!spectator]
 gamemode adventure @a[gamemode=!spectator]

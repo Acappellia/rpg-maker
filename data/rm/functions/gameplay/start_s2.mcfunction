@@ -1,7 +1,7 @@
 execute as @a[tag=reviving] run function rm:gameplay/revive
 
 effect give @a[gamemode=!spectator] instant_health 1 9 true
-effect give @a[gamemode=!spectator] resistance 30 9 false
+scoreboard players set @a[gamemode=!spectator] rm_resistance -240
 
 tellraw @a[gamemode=!spectator] [{"text": "> ","color": "gray"},{"text": "决胜时刻到来!", "color": "#ffc5a1"}]
 execute as @a at @s run playsound item.goat_horn.sound.2 player @s ~ ~ ~ 1 1

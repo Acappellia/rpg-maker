@@ -1,3 +1,3 @@
 advancement revoke @s only rm:player_kill
 
-xp add @s 5 levels
+xp add @s 3 levels

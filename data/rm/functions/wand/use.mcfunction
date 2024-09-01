@@ -8,7 +8,7 @@ execute if score @s rm_wand_cd matches ..-1 run return -1
 
 execute if score @s rm_wand_launch matches 0.. run function rm:wand/reset_hold
 
-execute if score @s rm_wand_holdcount matches ..-1 run scoreboard players set @s rm_wand_launch -10
+execute if score @s rm_wand_holdcount matches ..-1 run scoreboard players set @s rm_wand_launch -8
 execute unless score @s rm_wand_holdcount matches ..-1 run return -1
 
 scoreboard players add @s rm_wand_holdcount 1
