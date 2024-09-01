@@ -1,6 +1,6 @@
 advancement revoke @s only rm:mob_kill
 
-title @s actionbar [{"text": "--- ","color": "gray"},{"text": " 🗡 ","color": "aqua"},{"text": "🗡 ","color": "blue"},{"text": " ---","color": "gray"}]
+title @s actionbar [{"text": "--- ","color": "gray"},{"text": " 🗡 ","color": "aqua"},{"text": "🗡 ","color": "dark_gray"},{"text": " ---","color": "gray"}]
 
 scoreboard players add @s rm_mobkill 1
 execute unless score @s rm_mobkill matches 2.. run return -1
