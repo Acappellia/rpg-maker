@@ -80,3 +80,6 @@ scoreboard objectives add rm_resistance custom:time_since_death
 forceload add 0 0 0 0
 
 schedule function rm:slowtick 1s append
+
+scoreboard objectives add start trigger
+scoreboard objectives add reset trigger
