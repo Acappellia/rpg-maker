@@ -6,6 +6,6 @@ execute if score #game_status rm matches 1.. run function rm:gameplay/player_act
 
 execute if score #game_status rm matches 1 run function rm:gameplay/tick_s1_clock
 
-
+execute if score #game_status rm matches 1.. run function rm:gameplay/tick_slow
 
 schedule function rm:slowtick 1s replace

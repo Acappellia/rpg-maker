@@ -4,9 +4,5 @@ gamemode spectator @a[tag=reviving]
 gamemode spectator @a[tag=spec]
 gamemode spectator @a[tag=dead]
 
-execute unless score #monster_res rm matches 1 run effect give @e[type=vindicator] weakness 3 0 true
-execute if score #monster_res rm matches 1 run effect give @e[type=#rm:xp_mobs] resistance 3 0 true
-execute if score #monster_res rm matches 1 run effect give @e[type=#rm:xp_mobs,type=!vindicator] strength 3 0 true 
-
 execute if score #game_status rm matches 1 run function rm:gameplay/tick_s1
 execute if score #game_status rm matches 2 run function rm:gameplay/tick_s2
