@@ -20,4 +20,8 @@ bossbar set timer_s2 visible false
 
 difficulty peaceful
 
-tp @a 0 20 0 180 0
+worldborder center 0 0
+worldborder set 1000
+
+setworldspawn 0 20 -14 0
+tp @a 0 20 -14 180 0

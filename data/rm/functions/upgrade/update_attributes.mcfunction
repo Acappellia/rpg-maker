@@ -52,11 +52,11 @@ execute if score @s rm_upgrade_3 matches 2 run attribute @s generic.armor_toughn
 execute if score @s rm_upgrade_3 matches 3 run attribute @s generic.armor_toughness modifier add 0-0-0-1-3 "rm_armor_tough" 3 add
 execute if score @s rm_upgrade_3 matches 4 run attribute @s generic.armor_toughness modifier add 0-0-0-1-3 "rm_armor_tough" 4 add
 execute if score @s rm_upgrade_3 matches 5 run attribute @s generic.armor_toughness modifier add 0-0-0-1-3 "rm_armor_tough" 5 add
-execute if score @s rm_upgrade_3 matches 6 run attribute @s generic.armor_toughness modifier add 0-0-0-1-3 "rm_armor_tough" 6 add
-execute if score @s rm_upgrade_3 matches 7 run attribute @s generic.armor_toughness modifier add 0-0-0-1-3 "rm_armor_tough" 7 add
-execute if score @s rm_upgrade_3 matches 8 run attribute @s generic.armor_toughness modifier add 0-0-0-1-3 "rm_armor_tough" 8 add
-execute if score @s rm_upgrade_3 matches 9 run attribute @s generic.armor_toughness modifier add 0-0-0-1-3 "rm_armor_tough" 9 add
-execute if score @s rm_upgrade_3 matches 10 run attribute @s generic.armor_toughness modifier add 0-0-0-1-3 "rm_armor_tough" 10 add
+#execute if score @s rm_upgrade_3 matches 6 run attribute @s generic.armor_toughness modifier add 0-0-0-1-3 "rm_armor_tough" 6 add
+#execute if score @s rm_upgrade_3 matches 7 run attribute @s generic.armor_toughness modifier add 0-0-0-1-3 "rm_armor_tough" 7 add
+#execute if score @s rm_upgrade_3 matches 8 run attribute @s generic.armor_toughness modifier add 0-0-0-1-3 "rm_armor_tough" 8 add
+#execute if score @s rm_upgrade_3 matches 9 run attribute @s generic.armor_toughness modifier add 0-0-0-1-3 "rm_armor_tough" 9 add
+#execute if score @s rm_upgrade_3 matches 10 run attribute @s generic.armor_toughness modifier add 0-0-0-1-3 "rm_armor_tough" 10 add
 
 execute unless score @s rm_update_attributes_logout matches 1.. run effect give @s instant_health 1 9 true
 scoreboard players reset @s rm_update_attributes_logout

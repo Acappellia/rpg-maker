@@ -13,7 +13,7 @@ execute unless score @s rm_wand_holdcount matches ..-1 run return -1
 
 scoreboard players add @s rm_wand_holdcount 1
 scoreboard players add @s rm_wand_currenthold 1
-scoreboard players set @s rm_wand_holdcd -4
+scoreboard players set @s rm_wand_holdcd -3
 
 effect give @s slowness 1 4 true
 #effect give @s jump_boost 1 240 true
@@ -24,4 +24,4 @@ execute unless score @s rm_wand_currenthold matches 2.. run return -1
 particle witch ~ ~ ~ 0 0 0 0.1 10
 attribute @s generic.knockback_resistance base set 1
 effect give @s slowness 1 9 true
-effect give @s resistance 1 2 false
+effect give @s resistance 1 1 false

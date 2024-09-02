@@ -28,10 +28,10 @@ execute if score @s rm_upgrade_3 matches 2 run attribute @s generic.armor_toughn
 execute if score @s rm_upgrade_3 matches 3 run attribute @s generic.armor_toughness modifier add 0-0-0-1-3 "rm_armor_tough" 3 add
 execute if score @s rm_upgrade_3 matches 4 run attribute @s generic.armor_toughness modifier add 0-0-0-1-3 "rm_armor_tough" 4 add
 execute if score @s rm_upgrade_3 matches 5 run attribute @s generic.armor_toughness modifier add 0-0-0-1-3 "rm_armor_tough" 5 add
-execute if score @s rm_upgrade_3 matches 6 run attribute @s generic.armor_toughness modifier add 0-0-0-1-3 "rm_armor_tough" 6 add
-execute if score @s rm_upgrade_3 matches 7 run attribute @s generic.armor_toughness modifier add 0-0-0-1-3 "rm_armor_tough" 7 add
-execute if score @s rm_upgrade_3 matches 8 run attribute @s generic.armor_toughness modifier add 0-0-0-1-3 "rm_armor_tough" 8 add
-execute if score @s rm_upgrade_3 matches 9 run attribute @s generic.armor_toughness modifier add 0-0-0-1-3 "rm_armor_tough" 9 add
-execute if score @s rm_upgrade_3 matches 10 run attribute @s generic.armor_toughness modifier add 0-0-0-1-3 "rm_armor_tough" 10 add
+#execute if score @s rm_upgrade_3 matches 6 run attribute @s generic.armor_toughness modifier add 0-0-0-1-3 "rm_armor_tough" 6 add
+#execute if score @s rm_upgrade_3 matches 7 run attribute @s generic.armor_toughness modifier add 0-0-0-1-3 "rm_armor_tough" 7 add
+#execute if score @s rm_upgrade_3 matches 8 run attribute @s generic.armor_toughness modifier add 0-0-0-1-3 "rm_armor_tough" 8 add
+#execute if score @s rm_upgrade_3 matches 9 run attribute @s generic.armor_toughness modifier add 0-0-0-1-3 "rm_armor_tough" 9 add
+#execute if score @s rm_upgrade_3 matches 10 run attribute @s generic.armor_toughness modifier add 0-0-0-1-3 "rm_armor_tough" 10 add
 
 execute if score @s rm_upgrade_3 matches 10 run item replace entity @s armor.feet with chainmail_boots{AttributeModifiers:[{Amount:0,AttributeName:"generic.armor",Name:"armor",Operation:0,Slot:"feet",UUID:[I;0,0,0,9]}],Unbreakable:1b,Enchantments:[{id:"feather_falling",lvl:10}]}
