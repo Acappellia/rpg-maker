@@ -19,8 +19,9 @@ bossbar set timer_s2 visible true
 
 worldborder center -284 -207
 worldborder set 88
-worldborder set 11 300
+worldborder set 10 300
 worldborder warning distance 4
+worldborder damage buffer 0
 
 setworldspawn -284 -22 -207 0
 tp @a -284 -22 -207 0 0

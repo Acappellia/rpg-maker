@@ -33,5 +33,5 @@ scoreboard players set #monster_res rm 0
 
 scoreboard players set @a rm_mobkill 0
 
-setworldspawn 0 20 -14 0
-tp @a 0 20 -14 180 0
+setworldspawn 0 21 -14 0
+tp @a 0 21 -14 180 0

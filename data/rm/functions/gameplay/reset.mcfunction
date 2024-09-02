@@ -26,5 +26,5 @@ worldborder set 1000
 kill @e[type=mutantmonsters:body_part]
 kill @e[type=arrow]
 
-setworldspawn 0 20 -14 0
-tp @a 0 20 -14 180 0
+setworldspawn 0 21 -14 0
+tp @a 0 21 -14 180 0

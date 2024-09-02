@@ -13,7 +13,7 @@ gamerule doDaylightCycle false
 gamerule spawnRadius 0
 #sdifficulty peaceful
 
-setworldspawn 0 20 -14 0
+setworldspawn 0 21 -14 0
 
 scoreboard objectives add rm dummy
 
