@@ -64,6 +64,7 @@ scoreboard objectives add rm_jump custom:jump
 scoreboard objectives add rm_autoheal_cd custom:time_since_death
 scoreboard objectives add rm_autoheal_removeregen custom:time_since_death
 scoreboard objectives add rm_blind_time custom:time_since_death
+scoreboard objectives add rm_blind_res_time custom:time_since_death
 
 scoreboard objectives add rm_wand_use used:carrot_on_a_stick
 scoreboard objectives add rm_wand_holdcount dummy
