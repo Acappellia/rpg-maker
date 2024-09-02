@@ -12,7 +12,6 @@ execute store result storage rm:tmp timer_info.sec int 1 run scoreboard players 
 function rm:gameplay/tick_s1_clock_settitle with storage rm:tmp timer_info
 bossbar set minecraft:timer_s1 players @a
 
-
 execute if score #timer_s1 rm matches 1400 run difficulty normal
 execute if score #timer_s1 rm matches 1400 run tellraw @a [{"text": "> ","color": "gray"},{"text": "怪物变得更加强大了…… ","color": "white"},{"text": "游戏难度：","color": "gray"},{"text": "简单","color": "green"},{"text": " >> ","color": "gray"},{"text": "普通","color": "gold"}]
 execute if score #timer_s1 rm matches 1400 run tellraw @a [{"text": "> ","color": "gray"},{"text": "突变僵尸 ","color": "red"},{"text": "已出现在","color": "gray"},{"text": " 港口区-“远洋号”商船","color": "white"}]
